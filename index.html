@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Matt Ballard Portfolio</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,23 @@
         Menu
         <i class="fas fa-bars"></i>
       </button>
+
+      <div class="container">
+        <div class="navbar navbar-expand-lg navbar-light nav-social">
+          <a href="https://www.linkedin.com/in/matthew-ballard-a27252178/" class="mx-2">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/mrdotballard" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/mrdotballard" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
+
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -58,7 +74,7 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Matt Ballard</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">Emerging web and and software developer.</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Emerging web and software developer.</h2>
         <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
       </div>
     </div>
@@ -78,7 +94,8 @@
             dived head long back into programming. While dipping into Ruby on Rails (and Sinatra),
             I'm now turning out projects focusing soley on JavaScript, learning Angular, MongoDB, and Express, together
             with an array of available libraries. Once comfortable in fullstack web development and with some commercial
-            expereince, Java will be re-aquired in full to develope solutions at a lower level, perahps with a pinch of
+            expereince, Java will be re-aquired in full to develope software and solutions at a lower level, perahps
+            with a pinch of
             data science on the way.
           </p>
         </div>
@@ -108,29 +125,35 @@
 
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-        <div class="col-lg-6">
+        <!-- onclick="location.href='./JS30/JS30.html';" -->
+
+        <div class="project-boxes col-lg-6" onclick="window.open('https://powerful-shelf-17911.herokuapp.com')">
           <!-- <img class="img-fluid" src="img/demo-image-01.jpg" alt=""> -->
           <div class="bg-grey text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">Ruby Palindrome Detector</h4>
-                <p class="mb-0 text-white-50">Coded in Ruby, using Sinatra and hosted on Heroku, this production web app
+                <p class="mb-0 text-white-50">Coded in Ruby, using Sinatra and hosted on Heroku, this production web
+                  app
                   tells you whether or not your sentence is the same backwards as forwards, stripping
-                  out punctuation, etc. </br>What's the longest palindrome you can come up with...?</br></br>
-                  Rubygems.org: search mrdotballard_palindrome.</p>
+                  out punctuation, etc. </br>What's the longest palindrome you can come up with?</br></br>
+                  Rubygems.org: <a href="https://rubygems.org/gems/mrdotballard_palindrome">mrdotballard_palindrome</a>
+                </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class=" col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
                 <h4 class="text-white">JavaScript Palindrome Detector</h4>
-                <p class="mb-0 text-white-50">Another Palindrome detector coded in JS. </br>Mad'am I'm Adam...
-                  </br></br>Require mrdotballard-palindrome from NPM. </p>
+                <p class="mb-0 text-white-50">Another Palindrome detector coded in JS. Packaged and available for use.
+                  </br>Mad'am I'm Adam...
+                  </br></br>Npmjs.com: require <a
+                    href="https://www.npmjs.com/package/mrdotballard-palindrome">mrdotballard-palindrome</a> </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -139,36 +162,52 @@
       </div>
 
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
-        </div>
-        <div class="col-lg-6 order-lg-first">
-          <div class="bg-black text-center h-100 project">
+      <div class="project-boxes row justify-content-center no-gutters">
+        <div class="col-lg-6" onclick="window.open('https://mrdotballard.github.io')">
+          <!-- <img class="img-fluid" src="img/demo-image-02.jpg" alt=""> -->
+          <div class="bg-grey text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
-                  sections work well responsively as well, try this theme on a small screen!</p>
-                <hr class="d-none d-lg-block mb-0 mr-0">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">HTML, CSS & Layout Demo</h4>
+                <p class="mb-0 text-white-50">An indepth look at CSS and page layout, guided by learnenough.com's CSS
+                  and JS tutorials. Showcasing a gallery and blog, exploring from flexbox to responsive design, this is
+                  a useful reference project!</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-6 order-lg-first" onclick="window.open('https://mrdotballard-weatherapp.herokuapp.com/')">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Node.js Weather App</h4>
+                <p class="mb-0 text-white-50">Using Express.js, EJS view engine and openweathermap.org's API, type in a
+                  city and get the current temperature displayed. In production at Heroku.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
       </div>
 
       <!-- Project Three Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div class=" row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
         </div>
-        <div class="col-lg-6">
+        <div class="project-boxes col-lg-6" onclick="window.open('https://alpha-blog-mrdotballard.herokuapp.com/')">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
-                  along with a description.</p>
+                <h4 class="text-white">Ruby on Rails Blog Demo</h4>
+                <p class="mb-0 text-white-50">A work in progress.</br> Here we're learning the MVC model, routing,
+                  authenticating users, writing to DB and much more!</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -180,7 +219,26 @@
   </section>
 
   <!-- Signup Section -->
-  <section id="signup" class="signup-section">
+  <section id="signup" class="signup-section  contact-section">
+
+    <div class="container">
+      <div class="contact-button ">
+        <a href="./img/Ballard_CV_Aug20b.pdf" class="btn btn-primary">download CV</a>
+        <a href="mailto: mr.ballard@outlook.com" class="btn btn-primary">email me</a>
+      </div>
+    </div>
+    <div class="social d-flex justify-content-center">
+      <a href="https://www.linkedin.com/in/matthew-ballard-a27252178/" class="mx-2">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://twitter.com/mrdotballard" class="mx-2">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com/mrdotballard" class="mx-2">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!--         
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
@@ -196,7 +254,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
   <!-- Contact Section -->
@@ -205,7 +263,7 @@
 
       <div class="row">
 
-        <div class="col-md-4 mb-3 mb-md-0">
+        <!-- <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
@@ -239,39 +297,39 @@
             </div>
           </div>
         </div>
+      </div> 
+
+        <div class="social d-flex justify-content-center">
+          <a href="https://www.linkedin.com/in/matthew-ballard-a27252178/" class="mx-2">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/mrdotballard" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/mrdotballard" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
       </div>
+  </section> -->
 
-      <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="mx-2">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
+        <!-- Footer -->
+        <!-- <footer class="bg-black small text-center text-white-50">
     <div class="container">
       Copyright &copy; Your Website 2019
     </div>
-  </footer>
+  </footer> -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="js/grayscale.min.js"></script>
 
 </body>
 

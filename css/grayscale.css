@@ -86,6 +86,9 @@
   }
 }
 
+.nav-social {
+  padding-left: 50%;
+}
 .masthead {
   position: relative;
   width: 100%;
@@ -177,7 +180,10 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
+}
+.project-boxes {
+  cursor: pointer;
 }
 
 .projects-section .featured-text {
@@ -271,6 +277,10 @@
 
 .contact-section .social a:active {
   color: #fff;
+}
+
+.contact-button {
+  text-align: center;
 }
 
 body {
