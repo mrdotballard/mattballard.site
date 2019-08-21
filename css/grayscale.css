@@ -87,7 +87,7 @@
 }
 
 .nav-social {
-  padding-left: 50%;
+  padding-left: 50% !important;
 }
 .masthead {
   position: relative;
@@ -280,7 +280,7 @@
 }
 
 .contact-button {
-  text-align: center;
+  text-align: center !important;
 }
 
 body {
