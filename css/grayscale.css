@@ -182,9 +182,7 @@
 .projects-section {
   padding: 5rem 0;
 }
-.project-boxes {
-  cursor: pointer;
-}
+
 
 .projects-section .featured-text {
   padding: 2rem;
@@ -314,3 +312,49 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+/***********CUSTOM*********** */
+
+.social-header {
+  margin-top: 20px;
+  font-size: 2rem;
+}
+
+.project-boxes {
+  cursor: pointer;
+  color: white;
+}
+
+h5 {
+  font-weight: 800;
+}
+
+.bs-card {
+  /* background-color: rgba(235, 226, 226, 0.9); */
+  border-radius: 0px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+.landingpage {
+ background-image:  url('../LANDINGPAGE/catphoto.jpg');
+ background-repeat: no-repeat;
+ background-size: 650px 750px;
+ background-position: center;
+}
+
+.gallery {
+  background-image:  url('https://images.unsplash.com/photo-1439524970634-649c37a69e5c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1450&h=825&fit=crop&s=bfda9916c885869b43b70738693428d9');
+  background-repeat: no-repeat;
+  background-size: 650px 650px;
+  background-position: center;
+ }
+ 
+ .pattern {
+  background-image:  url('../PATTERN\ PROJECT/images/pattern2.jpeg');
+  background-repeat: no-repeat;
+  background-size: 650px 650px;
+  background-position: center;
+ }
+ 

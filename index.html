@@ -37,9 +37,12 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
+  <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-flex justify-content-between" id="mainNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">mattballard.site</a>
+
+
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
         aria-label="Toggle navigation">
@@ -47,7 +50,7 @@
         <i class="fas fa-bars"></i>
       </button>
 
-      <div class="container">
+      <!-- <div class="container">
         <div class="navbar navbar-expand-lg navbar-light nav-social">
           <a href="https://www.linkedin.com/in/matthew-ballard-a27252178/" class="mx-2">
             <i class="fab fa-linkedin"></i>
@@ -59,7 +62,8 @@
             <i class="fab fa-github"></i>
           </a>
         </div>
-      </div>
+      </div> -->
+
 
       <div class="collapse navbar-collapse" id="navbarResponsive">
 
@@ -75,8 +79,9 @@
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
+
 
   <!-- Header -->
   <header class="masthead">
@@ -85,7 +90,19 @@
         <h1 class="mx-auto my-0 text-uppercase">Matt Ballard</h1>
         <h2 class="text-white-50 mx-auto mt-2 mb-5">Emerging web and software developer.</h2>
         <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+
+        <div class="social-header">
+          <a href="https://www.linkedin.com/in/matthew-ballard-a27252178/" class="mx-2">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://twitter.com/mrdotballard" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://github.com/mrdotballard" class="mx-2">
+            <i class="fab fa-github"></i>
+        </div>
       </div>
+    </div>
     </div>
   </header>
 
@@ -159,13 +176,14 @@
         <div class=" col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
-              <div class="project-text w-100 my-auto text-center text-lg-left">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
                 <h4 class="text-white">JavaScript Palindrome Detector</h4>
-                <p class="mb-0 text-white-50">Another Palindrome detector coded in JS. Packaged and available for use.
+                <p class="mb-0 text-white-50">Another Palindrome detector coded in JS. <br>Packaged and available for
+                  use.
                   </br>Mad'am I'm Adam...
                   </br></br>Npmjs.com: require <a
                     href="https://www.npmjs.com/package/mrdotballard-palindrome">mrdotballard-palindrome</a> </p>
-                <hr class="d-none d-lg-block mb-0 ml-0">
+                <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
@@ -174,44 +192,44 @@
 
       <!-- Project Two Row -->
       <div class="project-boxes row justify-content-center no-gutters">
-        <div class="col-lg-6" onclick="window.open('https://mrdotballard.github.io')">
-          <!-- <img class="img-fluid" src="img/demo-image-02.jpg" alt=""> -->
+
+        <div class="col-lg-6 " onclick="window.open('https://mrdotballard-weatherapp.herokuapp.com/')">
           <div class="bg-grey text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">HTML, CSS & Layout Demo</h4>
-                <p class="mb-0 text-white-50">An indepth look at CSS and page layout, guided by learnenough.com's CSS
-                  and JS tutorials. Showcasing a gallery and blog, exploring from flexbox to responsive design, this is
-                  a useful reference project!</p>
+                <h4 class="text-white">Node.js Weather App</h4>
+                <p class="mb-0 text-white-50">Using Express.js, EJS view engine and openweathermap.org's API, type in a
+                  city and get the current temperature displayed. In production at Heroku.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
           </div>
         </div>
 
-        <div class="col-lg-6 order-lg-first" onclick="window.open('https://mrdotballard-weatherapp.herokuapp.com/')">
+        <div class="col-lg-6 order-lg-first" onclick="window.open('https://mrdotballard.github.io')">
+          <!-- <img class="img-fluid" src="img/demo-image-02.jpg" alt=""> -->
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Node.js Weather App</h4>
-                <p class="mb-0 text-white-50">Using Express.js, EJS view engine and openweathermap.org's API, type in a
-                  city and get the current temperature displayed. In production at Heroku.</p>
+                <h4 class="text-white">HTML, CSS & Layout Demo</h4>
+                <p class="mb-0 text-white-50">An indepth look at CSS and page layout, guided by learnenough.com's CSS
+                  and JS tutorials. Showcasing a gallery and blog, exploring from flexbox to responsive design, this is
+                  a useful reference project!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
           </div>
-
-
         </div>
-
 
       </div>
 
       <!-- Project Three Row -->
       <div class=" row justify-content-center no-gutters mb-5 mb-lg-0">
+
         <div class="col-lg-6">
           <img class="img-fluid" src="img/demo-image-01.jpg" alt="">
         </div>
+
         <div class="project-boxes col-lg-6" onclick="window.open('https://alpha-blog-mrdotballard.herokuapp.com/')">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
@@ -226,15 +244,79 @@
         </div>
       </div>
 
+
+      <!-- Project Four Row -->
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-first">
+          <!-- <img class="img-fluid" src="img/demo-image-02.jpg" alt=""> -->
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Bootstrap 3 & 4</h4>
+                <p class="mb-0 text-white-50">Grid system, flexbox, nav-bars, responsive design, cards...The power of
+                  Bootstrap is amazing, though a solid understanding of CSS can not be replaced. These demo pages were
+                  created while going through The Web Developer Bootcamp by Colt Steele.</p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+
+                <div class="row mt-2">
+                  <div class="col-12 bs-card">
+                    <div class="card project-boxes landingpage" onclick="window.open('./LANDINGPAGE/landingpage.html')">
+                      <div class="card-body">
+                        <h5 class="card-text">Landing Page</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 bs-card">
+                    <div class="card project-boxes gallery" onclick="window.open('./PHOTO\ GALLERY/gallery.html')">
+                      <div class="card-body">
+                        <h5 class="card-title">Photo Gallery</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 bs-card">
+                    <div class="card project-boxes pattern" onclick="window.open('./PATTERN\ PROJECT/index.html')">
+                      <div class="card-body">
+                        <h5 class="card-title">Pattern Project Site</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 project-boxes" onclick="window.open('./COLORGAME/colorgame.html')">
+          <div class="bg-grey text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">RGB Color Guessing Game</h4>
+                <p class="mb-0 text-white-50">Putting to use vanila CSS and Javascript while practicing selecting and
+                  manipulating HTML elements and style properites, plus some game logic.</p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+
   </section>
+
+
+
 
   <!-- Signup Section -->
   <section id="signup" class="signup-section  contact-section">
 
     <div class="container">
       <div class="contact-button ">
-        <a href="./img/Ballard_CV_Aug20b.pdf" class="btn btn-primary">download CV</a>
+        <a href="./img/Ballard_CV_Sep01_Rails.pdf" class="btn btn-primary">download CV</a>
         <a href="mailto: mr.ballard@outlook.com" class="btn btn-primary">email me</a>
       </div>
     </div>
