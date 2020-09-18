@@ -233,9 +233,7 @@
   border: 0;
 }
 
-.contact-section {
-  padding: 3em 0 !important;
-}
+
 
 .contact-section .card {
   border: 0;
@@ -256,7 +254,7 @@
 }
 
 .contact-section .social {
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
 .contact-section .social a {
@@ -411,7 +409,15 @@ h5 {
   }
 }
 
+.contact-section {
+  padding: 3em 0 !important;
+}
+
 .footer-img {
-  max-width: 12em !important;
+  max-width: 12em;
   margin: auto !important;
+}
+.footer-img img {
+  max-width: 12em;
+  height: auto;
 }
